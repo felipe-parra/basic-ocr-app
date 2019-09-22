@@ -1,0 +1,25 @@
+<div class="container p-4">
+  <h1 class="row justify-content-md-center">{{title}}</h1>
+
+
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+
+    <div class="custom-file ">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-auto">
+            <input type="file" class="custom-file-input" id="avatar" name="avatar" required>
+            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+          </div>
+          <div class="col col-lg-2">
+
+            <div class="input-group mb-3">
+
+              <button class="form-control btn btn-primary" type="submit">Convert</button>
+            </div>
+
+          </div>
+        </div>
+  </form>
+</div>
